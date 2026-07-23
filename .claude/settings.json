@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk 'NR==183{print length\\($0\\)}' \"s:\\\\Roadyssey\\\\Samarth_Fullstack_resume\\\\Samarth Jagakar - Portfolio.html\")",
+      "Bash(awk '{print NR\": \"length\\($0\\)}' \"s:\\\\Roadyssey\\\\Samarth_Fullstack_resume\\\\Samarth Jagakar - Portfolio.html\")",
+      "Bash(sort -t: -k2 -n -r)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
